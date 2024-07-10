@@ -1,7 +1,7 @@
 ## Quake II
 ```rs
 struct WAL {
-    name: [u8; 32],
+    name: [char; 32],
     width: u32,
     height: u32,
     offsets: [u32; 4],
